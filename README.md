@@ -70,6 +70,14 @@ Display the email address of the user who uploaded each image.
 
 ![Screenshot 2024-04-29 121649](https://github.com/KDvs123/Gallery-App/assets/119438971/47e36560-78b1-4ac8-800b-f0e1fcafffc4)
 
+## Pagespeed Insights Analysis of the Gallery App
+
+![Screenshot 2024-04-29 125621](https://github.com/KDvs123/Gallery-App/assets/119438971/fbbfd141-508d-429f-865c-75e652d89567)
+
+![Screenshot 2024-04-29 125634](https://github.com/KDvs123/Gallery-App/assets/119438971/e5d903eb-c800-4981-a129-b194d55593b3)
+
+
+
 
 
   
