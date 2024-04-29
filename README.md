@@ -1,4 +1,4 @@
-# Photo Gallery Application
+# Photo Gallery Application - Full Stack Image Gallery App Tutorial using React and Firebase
 
 Welcome to the Photo Gallery Application, a dynamic web application built using React. This application allows users to securely upload and view images in a gallery format. With a focus on user experience and security, our application leverages Firebase for authentication and storage, ensuring that your memories are safely stored and easily accessible.
 
@@ -28,32 +28,38 @@ This section will guide you through setting up the project locally on your machi
    npm install
    ```
 
-4. Create a `.env` file in the root of your project and populate it with your Firebase project configurations:
-   ```plaintext
-   REACT_APP_API_KEY=your_api_key
-   REACT_APP_AUTH_DOMAIN=your_project_auth_domain
-   REACT_APP_PROJECT_ID=your_project_id
-   REACT_APP_STORAGE_BUCKET=your_storage_bucket
-   REACT_APP_MESSAGING_SENDER_ID=your_messaging_sender_id
-   REACT_APP_APP_ID=your_app_id
-   ```
 
-5. Start the development server:
+4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
-Your app should now be running on [http://localhost:3000](http://localhost:3000).
+App Live Demo Link - vingi-bangi-gallery-app.vercel.app
 
-## Features
+## Creating Components
 
-- **User Authentication:** Secure login and signup functionality.
-- **Image Upload:** Users can upload images to the gallery.
-- **Real-time Gallery:** The gallery updates in real-time as images are added.
-- **Responsive Design:** A clean and responsive user interface.
+Create two components: SignUp.tsx and Home.tsx.
+In SignUp.tsx, designed the signup form using Daisy UI components.
+In Home.tsx, created a layout with a hero section and a container to display uploaded images.
+
+## Firebase Authentication
+
+Created a sign-up functionality using Firebase to allow users to register with email and password.
+
+## Image Uploading with Firestore
+
+Implement image uploading functionality using Firebase Storage.
+When an image is uploaded, store the image URL in Firestore along with the user's email address.
+
+## Displaying Uploaded Images
+Fetch uploaded image data from Firestore and display the images on the home page.
+Display the email address of the user who uploaded each image.
 
 ## Built With
 
 - [React](https://reactjs.org/) - The web framework used.
 - [Firebase](https://firebase.google.com/) - For authentication and storage solutions.
 - Custom Hooks - To manage authentication state and image uploads efficiently.
+- Daisy UI - CSS framework used for styling the application.
+
+  
