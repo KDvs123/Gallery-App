@@ -34,7 +34,8 @@ This section will guide you through setting up the project locally on your machi
    npm run dev
    ```
 
-App Live Demo Link - vingi-bangi-gallery-app.vercel.app
+App Live Demo Link - https://vingi-bangi-gallery-app.vercel.app/ 
+
 
 ## Creating Components
 
@@ -61,5 +62,9 @@ Display the email address of the user who uploaded each image.
 - [Firebase](https://firebase.google.com/) - For authentication and storage solutions.
 - Custom Hooks - To manage authentication state and image uploads efficiently.
 - Daisy UI - CSS framework used for styling the application.
+
+
+![Screenshot 2024-04-29 115214](https://github.com/KDvs123/Gallery-App/assets/119438971/168542f1-925b-46ed-840c-648e0e0bf50b)
+
 
   
