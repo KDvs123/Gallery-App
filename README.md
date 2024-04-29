@@ -64,12 +64,11 @@ Display the email address of the user who uploaded each image.
 - Custom Hooks - To manage authentication state and image uploads efficiently.
 - Daisy UI - CSS framework used for styling the application.
 
-**Images of the Gallery  App
-**
-
-![Screenshot 2024-04-29 115214](https://github.com/KDvs123/Gallery-App/assets/119438971/168542f1-925b-46ed-840c-648e0e0bf50b)
+## Images of the Gallery  App
 
 ![Screenshot 2024-04-29 115529](https://github.com/KDvs123/Gallery-App/assets/119438971/6342efd8-bc7d-4807-b936-c84930867107)
+
+![Screenshot 2024-04-29 121649](https://github.com/KDvs123/Gallery-App/assets/119438971/47e36560-78b1-4ac8-800b-f0e1fcafffc4)
 
 
 
