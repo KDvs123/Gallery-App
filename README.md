@@ -53,6 +53,7 @@ Implement image uploading functionality using Firebase Storage.
 When an image is uploaded, store the image URL in Firestore along with the user's email address.
 
 ## Displaying Uploaded Images
+
 Fetch uploaded image data from Firestore and display the images on the home page.
 Display the email address of the user who uploaded each image.
 
@@ -63,8 +64,13 @@ Display the email address of the user who uploaded each image.
 - Custom Hooks - To manage authentication state and image uploads efficiently.
 - Daisy UI - CSS framework used for styling the application.
 
+**Images of the Gallery  App
+**
 
 ![Screenshot 2024-04-29 115214](https://github.com/KDvs123/Gallery-App/assets/119438971/168542f1-925b-46ed-840c-648e0e0bf50b)
+
+![Screenshot 2024-04-29 115529](https://github.com/KDvs123/Gallery-App/assets/119438971/6342efd8-bc7d-4807-b936-c84930867107)
+
 
 
   
